@@ -156,13 +156,14 @@ Quantitative results involving GPT-6 Astra on robotics and 3D / CAD / spatial ta
 
 | Evaluation | Setting | GPT-6 Astra | Compared with | Who, when | Source |
 |---|---|---|---|---|---|
-| BenchCAD | multi-view renders to CadQuery code, scored by mean voxel IoU; with tools | 95.9% | GPT-5.6 Sol 83.3%; Claude Fable 5.1 84.3% (Anthropic-reported, same metric) | OpenAI launch post, 2026-09-03 (official; the post itself is behind a bot wall, so the figures were read from VoxelMatters and the BenchCAD leaderboard, both of which cite it) | [OpenAI](https://openai.com/index/gpt-6-astra/), [VoxelMatters](https://www.voxelmatters.com/gpt-6-astra-can-turn-photos-into-3d-models-and-playable-environments/), [BenchCAD leaderboard](https://benchcad.com/leaderboard) |
+| BenchCAD | multi-view renders to CadQuery code, scored by mean voxel IoU; with tools | 95.9% | GPT-5.6 Sol 83.3%; Claude Fable 5.1 84.3%, Claude Fable 5 67.5%, Claude Opus 5 82.1% (footnoted in OpenAI's table; the BenchCAD leaderboard page notes they match Anthropic's published with-tools figures); Gemini 3.8 Flash not reported | OpenAI launch post, 2026-09-03 (official; table read directly) | [OpenAI](https://openai.com/index/gpt-6-astra/), [BenchCAD leaderboard](https://benchcad.com/leaderboard), [VoxelMatters](https://www.voxelmatters.com/gpt-6-astra-can-turn-photos-into-3d-models-and-playable-environments/) |
 | Blueprint-Bench 2 | apartment photos to a 2D floor plan; leaderboard score | 0.497, rank 2 behind the human reference | Human 0.586; Claude Fable 5.1 0.419; Claude Fable 5 0.386; Gemini 3.8 Flash 0.386; GPT-5.5 0.362; GPT-5.6 Sol 0.336 | Andon Labs (page undated; read 2026-09-19) | [eval page](https://andonlabs.com/evals/blueprint-bench-2) |
 | 28 embodied-understanding benchmarks (PhysBrain 1.5 paper, Table 4) | GPT 6 Astra at the low-thinking setting, run as a closed-source reference | overall 73.3. Spatial subset: VSI-Bench 59.8, 3DSRBench 62.3, MindCube 78.8, EmbSpatial-Bench 79.8, MMSI-Bench 57.9, ViewSpatial-Bench 54.2, SAT 96.7, ERQA 75.8, ERQA-PLUS 86.1, EgoPlan-Bench2 69.3, BLINK 80.6, CV-Bench 84.9 | overall: Gemini 3.6 Flash 73.0, Claude Opus 5 67.9, PhysBrain 1.5 (8B) 72.5 | arXiv 2609.14973, 2026-09-14 | [arXiv](https://arxiv.org/abs/2609.14973) |
 
 Notes on coverage:
 
 - CAD Arena (native-CAD tests in NX, SolidWorks, Onshape, Fusion and Build123d) is reported secondhand only: [adam.new](https://adam.new/gpt-6-astra-cad) (2026-09-10) gives Astra an average of 0.671 against 0.662 for Claude Fable 5.1, with Astra's best single result in Onshape at 0.723. The CAD Arena leaderboard itself was not located, so the figure is not in the table.
+- The same OpenAI table lists "Internal Design Tasks": GPT-6 Astra 50.0%, GPT-5.6 Sol 47.4%, Claude Fable 5 35.8%. OpenAI does not describe the task set, so it is noted here but not treated as a 3D or CAD benchmark.
 - OpenAI's [system card for GPT-6 Astra](https://deploymentsafety.openai.com/gpt-6-astra) contains no capability tables for CAD, 3D, spatial or robotics tasks.
 - No published Astra results were found for BlenderGym, SGP-Bench, Text2CAD, CADBench, EmbodiedBench or SimplerEnv as of 2026-09-19.
 
