@@ -2,7 +2,7 @@
 
 Public, source-linked examples of OpenAI's GPT-6 Astra used for 3D modeling, industrial design / CAD and robot control, collected from X, LinkedIn and GitHub. Each entry links to the original post, names the author and date, and quotes the author for any number or claim. The demo videos and images are archived in this repository so they stay viewable if the originals disappear; rights remain with their authors.
 
-All links were opened and the media archived on 2026-09-18. Reposts and commentary are listed under the original case, not as separate entries.
+All links were opened and the media archived on 2026-09-18; five cases posted between 11 and 18 September (by @frankzydou, @SucarEdgar and @walterzhu8) were added on 2026-09-19. Reposts and commentary are listed under the original case, not as separate entries.
 
 ## Contents
 
