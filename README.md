@@ -319,7 +319,7 @@ Repositories that use GPT-6 Astra in these domains, or that the cases above are 
 
 ## About the Archived Media
 
-Video links open the file from this repository's GitHub Pages site (https://frank-zy-dou.github.io/awesome-astra/), which serves them as playable MP4; the same files sit under `assets/videos` in the repository tree. The videos are re-encoded copies of the media attached to the linked posts (H.264, at most 540p; the three clips longer than two minutes are stored at 360p or 480p to keep the repository small). Images are resized to at most 1280 px wide. Nothing is cut or edited. Files are named by case id and author, for example `assets/videos/m07-steam-locomotive-sketch-tomkrcha.mp4`. Authors who want a file removed can open an issue.
+Video links open the file from this repository's GitHub Pages site (https://frank-zy-dou.github.io/awesome-ai-3d-modeling-robotics/), which serves them as playable MP4; the same files sit under `assets/videos` in the repository tree. The videos are re-encoded copies of the media attached to the linked posts (H.264, at most 540p; the three clips longer than two minutes are stored at 360p or 480p to keep the repository small). Images are resized to at most 1280 px wide. Nothing is cut or edited. Files are named by case id and author, for example `assets/videos/m07-steam-locomotive-sketch-tomkrcha.mp4`. Authors who want a file removed can open an issue.
 
 ## Contributing
 
